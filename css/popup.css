@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    max-width: 800px;
+    overflow-x: hidden;
+    font: 12px 'Noto Sans', 'lucida grande', helvetica, arial, sans-serif;
+}
+
+#main {
+    width: 800px;
+}
+
+#search {
+    display: block;
+    width: 800px;
+    height: 16px;
+    border: 1px solid #abc;
+    margin: 3px;
+    padding: 4px;
+    position: sticky;
+    top: 0px;
+}
+
+#search:focus {
+    outline: 2px solid #adf;
+    -webkit-box-shadow: 0 0 3px #adf;
+}
+
+.tab-items {
+    width: 73px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    background: #313D58;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.tab-items[medium="false"] {
+    background-color: black;
+    width: 70px;
+}
+
+.tab-items[large="false"] {
+    background-color: black;
+    width: 70px;
+}
+
+.item:hover,
+.item:focus {
+    background: #ddd;
+    border-color: #ddd;
+    outline: 0;
+}
+
+.item:active {
+    border-color: #69f;
+}
+
+.selected {
+    background: rgba(0, 127, 255, 0.9) !important;
+    border-color: rgba(0, 127, 255, 0.9) !important;
+    color: #fff !important;
+}
+
+.selected:hover,
+.selected:focus {
+    background: #06f !important;
+    border-color: #06f !important;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    background: white;
+    border-radius: 100px;
+}
+
+.item * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    padding: 7.5px;
+    float: left;
+    margin-left: -1px;
+}
+
+.title {
+    width: 284px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+.close {
+    text-align: center;
+    vertical-align: baseline;
+    width: 12px;
+    font: bold 12px verdana, sans-serif;
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    display: none;
+    border-radius: 12px;
+}
+
+.item .close {
+    color: #567;
+}
+
+.item .close:hover {
+    color: #000;
+    background-color: #06f;
+}
+
+.selected .title {
+    font-weight: bold;
+}
+
+.selected .close {
+    color: #def;
+}
+
+.selected .close:hover {
+    color: #06f;
+    background-color: #fff
+}
+
+/* .item:hover .title {
+	width: 314px;
+} */
+
+.item:hover .close {
+    display: initial;
+}
+
+body {
+    background-color: black;
+}
+
+.expand {
+    float: left;
+}
+
+image {
+    width: 4px;
+    background: white;
+    height: 4px;
+    margin: 3px;
+}
+
+#hi {
+    width: 100px;
+    height: 100px;
+
+}

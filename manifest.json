@@ -1,0 +1,21 @@
+{
+    "name": "Safe Tab",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Tab manager",
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "tabs"
+    ],
+    "action": {
+        "default_title": "Safe Tab",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "img/16-logo.png",
+            "32": "img/32-logo.png",
+            "62": "img/64-logo.png",
+            "128": "img/128-logo.png"
+        }
+    }
+}
